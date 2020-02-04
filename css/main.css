@@ -17,9 +17,11 @@ header {
 }
 nav,
 footer {
-  margin: 5px;
-  padding: 1px;
+  width: 90%
   background-color: navy;
+  padding: 1px;
+  border: rounded;
+  margin: 5px;
 }
 
 
