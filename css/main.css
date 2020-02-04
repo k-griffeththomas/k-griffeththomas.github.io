@@ -1,27 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=Lateef|Palanquin+Dark&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Shadows+Into+Light&display=swap');
 
 body {
   font-size: 18px;
   line-height: 1.5;
-  max-width: 750px;
-  
+  max-width: 90%;
+  margin: 15px auto;
 }
   
 header {
-  background-color: rgb(65, 65, 192);
-  font-size: 10px;
-  padding: 20px;
-  border: rounded;
+  background-color: rgb(111, 111, 184);
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  font-display: auto;
+  padding: 5px;
+  border-radius: 15px;
   margin: 10px;
 
 }
-nav,
+nav{
+margin: 30px;
+border-bottom-style: solid;
+
+
+}
+
 footer {
-  width: 90%
-  background-color: navy;
-  padding: 1px;
-  border: rounded;
-  margin: 5px;
+  background-color: rgb(111, 111, 184);
+  text-align: center;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px;
 }
 
 
