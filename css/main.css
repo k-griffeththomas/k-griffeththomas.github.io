@@ -2,8 +2,9 @@
 
 body {
   font-size: 18px;
+  font-family: 'Shadows Into Light', cursive;
   line-height: 1.5;
-  max-width: 90%;
+  max-width: 70%;
   margin: 15px auto;
 }
   
