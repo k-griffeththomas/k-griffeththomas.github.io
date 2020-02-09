@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Shadows+Into+Light&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Shadows+Into+Light&display=swap');*/
 
 body {
   font-size: 18px;
@@ -13,7 +13,7 @@ header {
   text-align: center;
   color: white;
   font-size: 1em;
-  font-display: auto;
+  /*font-display: auto;*/
   padding: 5px;
   border-radius: 15px;
   margin: 10px;
