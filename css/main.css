@@ -2,7 +2,7 @@
 
 body {
   font-size: 18px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Shadows Into Light', 'Archivo Narrow';
   line-height: 1.5;
   max-width: 70%;
   margin: 15px auto;
@@ -40,5 +40,6 @@ footer {
 img {
   float: right;
   margin: 10px;
+  width:200px;
   
 }
