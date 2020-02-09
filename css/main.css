@@ -18,13 +18,13 @@ header {
 }
 
 h2 {
-
+  padding: 5px;
   border-bottom-style: solid;
 }
 
 nav {
   margin: 30px;
-  
+
 
 }
 
@@ -41,7 +41,7 @@ footer {
 
 img {
   float: right;
-  margin: 30px 10px;
+  margin: 25px 10px;
   width: 200px;
 
 }
