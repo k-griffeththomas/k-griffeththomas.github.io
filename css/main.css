@@ -23,8 +23,7 @@ h2 {
 
 nav {
   margin: 30px;
-  border-bottom-style: solid;
-
+  
 
 }
 
@@ -41,7 +40,7 @@ footer {
 
 img {
   float: right;
-  margin: 10px;
+  margin: 30px 10px;
   width: 200px;
 
 }
