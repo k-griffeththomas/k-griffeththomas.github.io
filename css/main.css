@@ -1,6 +1,5 @@
 body {
   font-size: 18px;
-  font-family: 'Shadows Into Light', 'Lido';
   line-height: 1.5;
   max-width: 70%;
   margin: 15px auto;
@@ -16,7 +15,9 @@ header {
   margin: 10px;
 
 }
-
+h1 {
+  font-family: 'Shadows Into Light', 'Lido';
+}
 
 h2 {
   padding: 5px;
