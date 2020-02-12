@@ -18,3 +18,5 @@
  var time = today.getHours()+ ":" + today.getMinutes() + ":" + today.getSeconds();
  var dateTime = date+' '+time; 
  document.getElementById('currentdate').innerHTML = currentDate;
+
+ 
