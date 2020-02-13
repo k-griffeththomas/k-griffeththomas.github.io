@@ -1,3 +1,6 @@
+* { -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; box-sizing: border-box; 
+}
 body {
   font-size: 18px;
   line-height: 1.5;
@@ -24,8 +27,16 @@ h1, h2 p {
   font-family: 'Shadows Into Light', 'Lido';
   text-align: center;
 }
-
 section {
+  float: left;
+  display: block;
+  background-color: light-grey;
+  border: 3px;
+  padding: 5px;
+  margin: 5px;
+}
+
+#sec1 {
   float: left;
   width: 27%;
   margin-bottom: 16px;
@@ -35,9 +46,27 @@ section {
   content:"";
 }
 
+#sec2 {
+  float: left;
+  width: 27%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  flex-flow:wrap;
+  display:flex;
+  content:"";
+}
+#sec3 {
+  float: left;
+  width: 27%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  flex-flow:wrap;
+  display:flex;
+  content:"";
+}
 
 footer {
-  background-color: light-grey;
+  background-color: grey;
   text-align: center;
   color: white;
   padding: 2px;
@@ -45,7 +74,8 @@ footer {
   border-width: 2px;
   border-radius: 5px;
   margin: 5px;
-  float: none;
+  clear: both;
+
 }
 
 
