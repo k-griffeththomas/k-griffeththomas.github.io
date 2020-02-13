@@ -22,11 +22,16 @@ header {
 }
 
 h1
-{font-size: 2em;}
-h1, h2 p {
+{font-size: 3em;}
+h1, h2, h3, p {
   font-family: 'Shadows Into Light', 'Lido';
   text-align: center;
 }
+
+main {
+  align-content: center;
+}
+
 section {
   float: left;
   display: block;
@@ -38,30 +43,30 @@ section {
 
 #sec1 {
   float: left;
-  width: 27%;
+  width: 30%;
   margin-bottom: 16px;
   padding: 0 8px;
   flex-flow:wrap;
-  display:flex;
+  display:inline-block;
   content:"";
 }
 
 #sec2 {
   float: left;
-  width: 27%;
+  width: 30%;
   margin-bottom: 16px;
   padding: 0 8px;
   flex-flow:wrap;
-  display:flex;
+  display:inline-block;
   content:"";
 }
 #sec3 {
   float: left;
-  width: 27%;
+  width: 30%;
   margin-bottom: 16px;
   padding: 0 8px;
   flex-flow:wrap;
-  display:flex;
+  display:inline-block;
   content:"";
 }
 
