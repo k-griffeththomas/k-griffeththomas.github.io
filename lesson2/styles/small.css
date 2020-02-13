@@ -1,0 +1,55 @@
+body {
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 90%;
+  margin: 15px auto;
+}
+
+header {
+  background-color: gray;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1em;
+  padding: 2px;
+  border-color: black;
+  border-width: 10px;
+  border-radius: 5px;
+  margin: 10px;
+
+}
+
+h1
+{font-size: 2em;}
+h1, h2 p {
+  font-family: 'Shadows Into Light', 'Lido';
+  text-align: center;
+}
+
+section {
+  float: left;
+  width: 27%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  flex-flow:wrap;
+  display:flex;
+  content:"";
+}
+
+
+footer {
+  background-color: light-grey;
+  text-align: center;
+  color: white;
+  padding: 2px;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 5px;
+  margin: 5px;
+  float: none;
+}
+
+
+
+img {
+  margin: 10px;
+  width: 90%;
