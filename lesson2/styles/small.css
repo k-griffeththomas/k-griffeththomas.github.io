@@ -73,6 +73,7 @@ main {
   margin-bottom: 16px;
   padding: 0 8px;
   flex-flow:wrap;
+  align-content: center;
   display:inline-block;
   content:"";
 }
