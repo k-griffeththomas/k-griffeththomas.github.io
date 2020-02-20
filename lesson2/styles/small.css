@@ -40,6 +40,10 @@ h2  {
   font-family: 'Shanti', sans-serif;
   text-align: center;
 }
+a {
+  color:black
+}
+
 
 main {
   display: grid;
