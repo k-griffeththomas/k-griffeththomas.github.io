@@ -9,6 +9,9 @@ body {
   padding: 4px;
   margin: 15px auto;
 }
+a{
+  color:black
+}
 
 header {
   background-color: gray;
@@ -98,7 +101,7 @@ main {
 
 footer {
   font-family: 'Shadows Into Light', 'Lido';
-  background-color: grey;
+  background-color: gray;
   text-align: center;
   color: whitesmoke;
   padding: 5px;
