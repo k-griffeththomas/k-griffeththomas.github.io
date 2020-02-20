@@ -1,12 +1,5 @@
 @media only screen and (min-width:1028px) {
 
-  header, footer, nav, main {max-width: 75rem; margin: auto;}
-/* or just main..., or  nav, main... or  etc */
-  
-nav ul {padding: 1%;}
-nav li {width:auto;}
-nav a {padding: .5rem 1rem;}
-
-main {width: 31%;}
+ grid-template-columns: 1fr 1fr 1fr
 
 } /* end of media query*/
