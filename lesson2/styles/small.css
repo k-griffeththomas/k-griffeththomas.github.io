@@ -1,6 +1,9 @@
-* { -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box; box-sizing: border-box; 
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 body {
   font-size: 18px;
   color: whitesmoke;
@@ -9,8 +12,9 @@ body {
   padding: 4px;
   margin: 15px auto;
 }
+
 a {
-  color:black
+  color: black
 }
 
 header {
@@ -25,28 +29,33 @@ header {
   margin: 10px;
 
 }
+
 h1 {
   font-size: 3.5em;
   font-family: 'Shadows Into Light', 'Lido';
 }
-h2  {
+
+h2 {
   font-size: 3em;
   font-family: 'Shadows Into Light', 'Lido';
   text-align: center;
-  
+
 }
- h3, p {
+
+h3,
+p {
   font-family: 'BenchNine', sans-serif;
   font-family: 'Shanti', sans-serif;
   text-align: center;
 }
+
 a {
-  color:black
+  color: black
 }
 
 
 main {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 1fr;
   background-color: grey;
   border: 3px;
@@ -54,7 +63,7 @@ main {
   border-radius: 5px;
   margin: 10px;
   display: block;
-  
+
 }
 
 /* .container {  
@@ -78,28 +87,29 @@ main {
 
   border-block-color: black;
   margin-bottom: 16px;
-  display:inline-block;
-  flex-flow:wrap;
-  display:inline-block;
-  content:"";
+  display: inline-block;
+  flex-flow: wrap;
+  display: inline-block;
+  content: "";
 }
 
 #sec2 {
   width: 30%;
   margin-bottom: 16px;
   padding: 0 8px;
-flex-flow:wrap;
-  display:inline-block;
-  content:"";
+  flex-flow: wrap;
+  display: inline-block;
+  content: "";
 }
+
 #sec3 {
   float: right;
   width: 30%;
   margin-bottom: 16px;
   padding: 0 8px;
-  flex-flow:wrap;
-  display:inline-block;
-  content:"";
+  flex-flow: wrap;
+  display: inline-block;
+  content: "";
 }
 
 footer {
