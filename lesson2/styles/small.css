@@ -6,7 +6,7 @@
 
 body {
   font-size: 18px;
-  color: whitesmoke;
+  color: white;
   line-height: 1.5;
   max-width: 90%;
   padding: 4px;
@@ -36,14 +36,14 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.7em;
   font-family: 'BenchNine', sans-serif;
   font-family: 'Shanti', sans-serif;
   text-align: center;
 
 }
 h3 {
-  font-size: 2.5em;
+  font-size: 2.7em;
   font-family: 'Shadows Into Light', 'Lido';
   text-align: center;
 }
@@ -106,7 +106,7 @@ main {
 }
 
 footer {
-  font-size:1.1em;
+  font-size:1.2em;
   font-family: 'Shadows Into Light', 'Lido';
   background-color: gray;
   text-align: center;
