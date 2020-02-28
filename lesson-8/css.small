@@ -1,23 +1,19 @@
 html {
   font-family: Ubuntu, sans-serif;
 }
-body {
-  width:30%;
-  
-}
+
 table, th, td {
   border: 1px grey;
-  margin: auto;
 }
 
 table {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   border-collapse: collapse;
 }
-#a tr:nth-child(even) {
+#a tr:nth-child(even) td {
   background-color: #e7f0ed;
 }
-#a tr:nth-child(odd) {
+#a tr:nth-child(odd) td{
  background-color: #e7ffed;
 }
 #a th {
@@ -41,8 +37,4 @@ tr:nth-child(even) td {
 
 tr:nth-child(odd) td {
   background-color: rgb(245,245,245);
-}
-
-caption {
-  padding: 10px;
 }
